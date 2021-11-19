@@ -2,13 +2,13 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     game.resume()
 })
 input.onButtonPressed(Button.A, function () {
-    Pausa = 200
+    Pausa = 700
 })
 input.onButtonPressed(Button.AB, function () {
     game.pause()
 })
 input.onButtonPressed(Button.B, function () {
-    Pausa = 700
+    Pausa = 200
 })
 let Pausa = 0
 let Pilota = game.createSprite(2, 2)
